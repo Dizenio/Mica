@@ -9,18 +9,32 @@ body
     color:grey;
     font-family:helvetica;
     font-size:1em;
-    margin:0;                      /* el tamaño de la caja va aca?? */
+    margin:0px auto; 
+    width: 1024px;                     /* el tamaño de la caja va aca?? */
+    border:2px solid blue;
 }
 
 header
 {
-    margin:0;
     padding:0;
+    border:2px solid yellow;
 }
 
-header figure
+#marca, #pie
 {
-    display:inline-block;
+    border:2px solid red;
+}
+
+#marca
+{
+    width: 400px;
+
+}
+
+#pie
+{
+    width: 300px;
+    float: right;
 }
 
 nav
@@ -77,6 +91,7 @@ footer
     float:right;
     margin-right:10em;
     padding:0;
+    text-align: right;
     width:60%;
 }
 
@@ -85,6 +100,8 @@ footer p, footer a, footer figure
     display:inline-block;
     vertical-align:baseline;
 }
+
+
 
 #D 
 {
