@@ -1,0 +1,104 @@
+a
+{
+    color:red;
+    text-decoration:none;
+}
+
+body
+{
+    color:grey;
+    font-family:helvetica;
+    font-size:1em;
+    margin:0;                      /* el tamaño de la caja va aca?? */
+}
+
+header
+{
+    margin:0;
+    padding:0;
+}
+
+header figure
+{
+    display:inline-block;
+}
+
+nav
+{
+    border-top:2.5px dotted grey;
+    float:right;
+    margin:0 10em 5em 0; 
+    padding:0 0 0 0;
+}
+
+nav ul li
+{
+    border-right:2.5px dotted grey;
+    display:inline-block;
+    list-style:none;
+    margin:-1em 0 0 0;
+    padding: 0.5em 1em 0 1em;
+    vertical-align:top;
+}
+
+nav ul li a
+{
+    color:grey;
+    font-weight:500;
+    padding:0.5em 2em;
+}
+
+#sobremi
+{
+    margin:6em 10em 3em 10em;
+    padding:0;
+}
+
+#logo, h2, #contenido
+{
+    display:inline-block;
+    vertical-align:top;
+}
+
+#contenido, h2
+{
+    width:40%;
+}
+
+#logo
+{
+    float:left;
+    margin-right:2em;
+}
+
+footer
+{
+    border-top:2.5px dotted grey;
+    float:right;
+    margin-right:10em;
+    padding:0;
+    width:60%;
+}
+
+footer p, footer a, footer figure
+{
+    display:inline-block;
+    vertical-align:baseline;
+}
+
+#D 
+{
+    font-size:0.7em;
+    margin-left:4em;
+}
+
+#D a 
+{
+    color:grey;
+}
+
+.Servicio
+{
+    display:none;
+    width:40%;
+}
