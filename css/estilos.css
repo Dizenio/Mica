@@ -1,3 +1,9 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
 a
 {
     color:red;
@@ -8,114 +14,108 @@ body
 {
     color:grey;
     font-family:helvetica;
-    font-size:1em;
-    margin:0px auto; 
-    width: 1024px;                     /* el tamaño de la caja va aca?? */
-    border:2px solid blue;
-}
-
-header
-{
-    padding:0;
-    border:2px solid yellow;
-}
-
-#marca, #pie
-{
-    border:2px solid red;
-}
-
-#marca
-{
-    width: 400px;
+    font-weight:normal;
+    font-size:16px;
+    margin:0 50px;
 
 }
 
-#pie
+div
 {
-    width: 300px;
-    float: right;
-}
-
-nav
-{
-    border-top:2.5px dotted grey;
     float:right;
-    margin:0 10em 5em 0; 
-    padding:0 0 0 0;
-}
-
-nav ul li
-{
-    border-right:2.5px dotted grey;
-    display:inline-block;
-    list-style:none;
-    margin:-1em 0 0 0;
-    padding: 0.5em 1em 0 1em;
-    vertical-align:top;
-}
-
-nav ul li a
-{
-    color:grey;
-    font-weight:500;
-    padding:0.5em 2em;
-}
-
-#sobremi
-{
-    margin:6em 10em 3em 10em;
-    padding:0;
-}
-
-#logo, h2, #contenido
-{
-    display:inline-block;
-    vertical-align:top;
-}
-
-#contenido, h2
-{
-    width:40%;
-}
-
-#logo
-{
-    float:left;
-    margin-right:2em;
+    margin-top:50px;
 }
 
 footer
 {
-    border-top:2.5px dotted grey;
-    float:right;
-    margin-right:10em;
-    padding:0;
-    text-align: right;
-    width:60%;
+    margin-top:50px;
+    text-align:right;
 }
 
-footer p, footer a, footer figure
+footer figure, footer p
 {
     display:inline-block;
     vertical-align:baseline;
 }
 
-
-
-#D 
+footer #linea
 {
-    font-size:0.7em;
-    margin-left:4em;
+    font-size:0.6rem;
+    margin-right:5px;
+    
 }
 
-#D a 
+footer figure
 {
-    color:grey;
+    margin:0 2px;
 }
 
-.Servicio
+footer #D
+{
+    font-size:0.7rem;
+}
+
+header, div
+{
+    display:inline-block;
+}
+
+header #marca
+{
+    visibility:hidden;
+}
+
+header #marca, header #marca img
+{
+    width:100%;
+}
+
+h1
 {
     display:none;
-    width:40%;
+}
+
+nav
+{
+    float:right;
+    margin-top:-30px;
+    width:78%;
+}
+
+nav ul
+{
+    border-top:1px dashed grey;
+    list-style:none;
+    text-align:right;
+}
+
+nav ul li
+{
+    border-right:1px dashed grey;
+    display:inline-block;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+nav ul li a
+{
+    margin:0 10px;
+    padding:2px 9px;
+}
+
+section
+{
+    margin: auto;
+}
+
+section #informacion
+{   
+    text-align:justify;
+    width:400px;
+}
+
+section #informacion, #foto
+{
+    display:inline-block;
+    vertical-align:baseline;
 }
