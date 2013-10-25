@@ -4,70 +4,62 @@
     padding:0;
 }
 
-a
-{
-    color:red;
-    text-decoration:none;
-}
-
 body
 {
+    margin:20px;
+    border:2px solid blue;
     color:grey;
     font-family:helvetica;
-    font-weight:normal;
-    font-size:16px;
-    margin:0 50px;
-
+    font-size:14px;
 }
 
-div
+header
 {
-    float:right;
-    margin-top:50px;
+    position:relative;
+    margin-bottom:50px;
 }
 
-footer
-{
-    margin-top:50px;
-    text-align:right;
-}
-
-footer figure, footer p
-{
-    display:inline-block;
-    vertical-align:baseline;
-}
-
-footer #linea
-{
-    font-size:0.6rem;
-    margin-right:5px;
-    
-}
-
-footer figure
-{
-    margin:0 2px;
-}
-
-footer #D
-{
-    font-size:0.7rem;
-}
-
-header, div
+header #marca, header #pie
 {
     display:inline-block;
 }
 
 header #marca
 {
-    visibility:hidden;
 }
 
-header #marca, header #marca img
+header #pie
 {
-    width:100%;
+    position:absolute;
+    right:0;
+    top:42%;
+}
+
+header nav
+{
+    position:absolute;
+    right:0;
+    bottom:-9px;
+    left:220px;
+    text-align:right;
+}
+
+header nav ul
+{
+    border-top:0.15em dashed grey;
+}
+
+header nav ul li
+{
+    border-right:0.15em dashed grey;
+    display:inline-block;
+    margin:5px 0 0 10px;
+    padding:5px;    
+}
+
+header nav ul li a
+{
+    margin-right:10px;
 }
 
 h1
@@ -75,47 +67,39 @@ h1
     display:none;
 }
 
-nav
-{
-    float:right;
-    margin-top:-30px;
-    width:78%;
-}
-
-nav ul
-{
-    border-top:1px dashed grey;
-    list-style:none;
-    text-align:right;
-}
-
-nav ul li
-{
-    border-right:1px dashed grey;
-    display:inline-block;
-    margin-left:10px;
-    margin-top:5px;
-}
-
-nav ul li a
-{
-    margin:0 10px;
-    padding:2px 9px;
-}
-
 section
 {
-    margin: auto;
+    width:60%;
+    margin:0 auto;
 }
 
-section #informacion
-{   
+section article, section figure
+{
+    display:inline-block;
+    vertical-align:middle;
+    margin:0 0% 0 10%;
+}
+
+section article
+{
     text-align:justify;
     width:400px;
 }
 
-section #informacion, #foto
+section figure img
+{
+    width:400px;
+}
+
+footer
+{
+    margin-top:50px;
+    border:2px solid blue;
+}
+
+footer p, footer figure, footer a
 {
     display:inline-block;
     vertical-align:baseline;
+    border:2px solid red;
 }
