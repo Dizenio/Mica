@@ -53,13 +53,23 @@ header nav ul li
 {
     border-right:0.15em dashed grey;
     display:inline-block;
-    margin:5px 0 0 10px;
+    margin:5px 0 0 0;
     padding:5px;    
 }
 
 header nav ul li a
 {
-    margin-right:10px;
+    color: red;
+    margin: 0 10px 0 10px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover
+{
+    color: white;
+    background: red;
+    border-radius: 5px;
 }
 
 h1
@@ -69,7 +79,7 @@ h1
 
 section
 {
-    width:60%;
+    width:70%;
     margin:0 auto;
 }
 
@@ -77,13 +87,17 @@ section article, section figure
 {
     display:inline-block;
     vertical-align:middle;
-    margin:0 0% 0 10%;
 }
 
 section article
 {
     text-align:justify;
-    width:400px;
+    max-width:400px;
+}
+
+section figure
+{
+
 }
 
 section figure img
@@ -94,12 +108,23 @@ section figure img
 footer
 {
     margin-top:50px;
+    text-align: right;
     border:2px solid blue;
 }
 
-footer p, footer figure, footer a
+footer #linea
+{
+    border-bottom: 0.15em dashed grey;
+    width: 65%;
+}
+
+footer p, footer figure, footer a, footer #linea
 {
     display:inline-block;
     vertical-align:baseline;
-    border:2px solid red;
+}
+
+footer #D
+{
+    font-size: 0.8em;
 }
