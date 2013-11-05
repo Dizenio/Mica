@@ -3,8 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>MST - Fotografía y Diseño</title>
-            <link rel="stylesheet" href="css/normalize.css" />
-            <link rel="stylesheet" href="css/estilos.css" />
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+        <link rel="stylesheet" href="css/estilos.css" type="text/css" />
+		<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+		<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
     </head>
     
     <body>
@@ -19,16 +27,551 @@
                 </ul>
             </nav>
         </header>
-		<section>
+		<section id="galeria">
+            <div id="page">
+			<div id="container">
+				<h1>Portfolio</h1>
+				<!-- Start Advanced Gallery Html Containers -->
+				<div id="gallery" class="content">
+					<div class="slideshow-container">
+						<div id="loading" class="loader"></div>
+						<div id="slideshow" class="slideshow"></div>
+					</div>
+					<div id="caption" class="caption-container"></div>
+				</div>
+				<div id="thumbs" class="navigation">
+					<ul class="thumbs noscript">
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/03.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/03t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/04.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/04t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/05.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/05t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/06.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/06t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/07.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/07t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/08.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/08t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/09.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/09t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/10.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/10t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/11.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/11t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/12.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/12t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/13.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/13t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/14.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/14t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/15.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/15t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/16.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/16t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/17.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/17t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/18.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/18t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/19.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/19t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/20.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/20t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/21.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/21t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/22.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/22t.jpg" alt="Foto" />
+							</a>
+						</li>
+                                                
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/23.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/23t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/24.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/24t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+                        
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+
+
+						<li>
+							<a class="thumb" href="imagenes/GALERIA/Adrian y Laura/02.jpg">
+								<img src="imagenes/GALERIA/Adrian y Laura/02t.jpg" alt="Foto" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
 		</section>
 		<footer> 
-            <p>------------------------------------------</p>
+            <div id="linea"></div>
             <a href="mailto:micaelita@gmail.com">[micaelita@gmail.com]</a>
             <span>Follow me</span>
-            <figure><a href="http://www.facebook.com/mica"><img src"#" alt="Facebook" /></a></figure>
-            <figure><a href="http://www.twitter.com/mica"><img src"#" alt="Twitter" /></a></figure>
-            <figure><a href="http://www.blogger.com/mica"><img src"#" alt="Blog" /></a></figure>
-            <p id="D">Powered by <a href="http://www.dizenio.com.ar"><strong>+Dizenio</strong></a> in <strong>HTML5</strong></p>
-		</footer>	
+            <figure><a href="http://www.facebook.com/mica"><img class="social" src="imagenes/social/facebook.svg" alt="Facebook" /></a></figure>
+            <figure><a href="http://www.twitter.com/mica"><img class="social" src="imagenes/social/twitter.svg" alt="Twitter" /></a></figure>
+            <figure><a href="http://www.blogger.com/mica"><img class="social" src="imagenes/social/blog.svg" alt="Blog" /></a></figure>
+            <br>
+            <br>
+            <p id="D">Powered by <a href="http://www.dizenio.com.ar"><strong>+Dizenio</strong></a> in <span><img  id="w3c" src="imagenes/social/html5.svg" alt="html5" /></span></p>
+        </footer>
+        	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+				$('div.content').css('display', 'block');
+
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 0.67;
+				$('#thumbs ul.thumbs li').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  1.0,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+				
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,
+					numThumbs:                 15,
+					preloadAhead:              10,
+					enableTopPager:            true,
+					enableBottomPager:         true,
+					maxPagesToShow:            7,
+					imageContainerSel:         '#slideshow',
+					controlsContainerSel:      '#controls',
+					captionContainerSel:       '#caption',
+					loadingContainerSel:       '#loading',
+					renderSSControls:          true,
+					renderNavControls:         true,
+					playLinkText:              'Play Slideshow',
+					pauseLinkText:             'Pause Slideshow',
+					prevLinkText:              '&lsaquo; Previous Photo',
+					nextLinkText:              'Next Photo &rsaquo;',
+					nextPageLinkText:          'Next &rsaquo;',
+					prevPageLinkText:          '&lsaquo; Prev',
+					enableHistory:             false,
+					autoStart:                 false,
+					syncTransitions:           true,
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 1.0);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						this.fadeTo('fast', 1.0);
+					}
+				});
+			});
+		</script>
 	</body>
 </html>

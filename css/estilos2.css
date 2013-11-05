@@ -80,11 +80,6 @@ section article, section figure
     vertical-align:middle;
 }
 
-section div, section #servicios2
-{
-    margin:3% auto;
-}
-
 section article
 {
     text-align:justify;
