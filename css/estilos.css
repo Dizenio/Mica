@@ -10,10 +10,12 @@ body
     color:grey;
     font-family:helvetica;
     font-size:14px;
+    max-height:768px;
 }
 
 header
 {
+    max-height:150px;
     position:relative;
 }
 
@@ -24,6 +26,13 @@ header #pie
     top:42%;
 }
 
+header #nomarca img
+{
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+    opacity:0;
+}
+
 header nav
 {
     position:absolute;
@@ -31,6 +40,7 @@ header nav
     bottom:-9px;
     left:220px;
     text-align:right;
+    max-height:55px;
 }
 
 header nav ul
@@ -70,8 +80,14 @@ h1
 section
 {
     margin:0 auto;
-    width:80%;
+    width:85%;
+    max-height:500px;
 } 
+
+section div
+{
+    max-height:500px;
+}
 
 section article, section figure
 {
@@ -104,6 +120,7 @@ section figure img
 footer
 {
     text-align: right;
+    max-height:65px;
 }
 
 footer #linea
