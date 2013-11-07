@@ -4,6 +4,12 @@
     padding:0;
 }
 
+#mail
+{
+    text-decoration:none;
+    color:red;
+}
+
 body
 {
     margin:20px;
@@ -31,6 +37,12 @@ header #nomarca img
     backface-visibility:hidden;
     -webkit-backface-visibility:hidden;
     opacity:0;
+}
+
+header figure a #logo
+{
+    display:block;
+    margin:0 auto;
 }
 
 header nav
