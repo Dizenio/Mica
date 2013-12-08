@@ -4,9 +4,13 @@
     padding:0;
 }
 
-#mail
+a
 {
     text-decoration:none;
+}
+
+#mail
+{
     color:red;
 }
 
@@ -19,58 +23,64 @@ body
     max-height:768px;
 }
 
-header
+.intro
 {
-    max-height:150px;
-    position:relative;
-}
-
-header #pie
-{
-    position:absolute;
-    right:0;
-    top:42%;
-}
-
-header #nomarca img
-{
-    backface-visibility:hidden;
-    -webkit-backface-visibility:hidden;
-    opacity:0;
+    margin:0 auto;
+    width:50%;
 }
 
 header figure a #logo
 {
-    display:block;
-    margin:0 auto;
+    width:70%;
+}
+
+header figure a #logo:hover
+{
+    content: image
+    width:70%;
+}
+
+header .centrar, section .centrar
+{
+    text-align:center;
+}
+
+header #marca img
+{
+    background:white;
+    float:left;
+    width:260px;
+}
+
+header #pie
+{
+    float:right;
+    margin-top:72px;
 }
 
 header nav
 {
-    position:absolute;
-    right:0;
-    bottom:-9px;
-    left:220px;
-    text-align:right;
-    max-height:55px;
+    border-top:1px dashed grey;
+    clear:right;    
 }
 
 header nav ul
 {
-    border-top:0.15em dashed grey;
+    text-align:right;
 }
 
 header nav ul li
 {
-    border-right:0.15em dashed grey;
+    border-right:1px dashed grey;
     display:inline-block;
     margin:5px 0 0 0;
     padding:5px;    
+
 }
 
 header nav ul li a
 {
-    color: red;
+    color: grey;
     margin: 0 10px 0 10px;
     padding: 5px 8px;
     text-decoration: none;
@@ -78,8 +88,7 @@ header nav ul li a
 
 header nav ul li a:hover
 {
-    color: white;
-    background: red;
+    color: red;
     border-radius: 5px;
 }
 
@@ -88,76 +97,106 @@ h1
     display:none;
 }
 
-
-section
+section article figure #portada
 {
-    margin:0 auto;
-    width:85%;
-    max-height:500px;
-} 
-
-section div
-{
-    max-height:500px;
+    width: 100%;
 }
 
-section article, section figure
+section .centrar figure
+{
+   max-width:917px;
+   margin: 0 auto;
+}
+
+section .centrar
+{
+    border-bottom:1px dashed grey;
+    border-top:1px dashed grey;
+    padding:15px 0;
+}
+
+#galeria
+{
+    padding:30px 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section #informacion
+{
+    max-width:1024px;
+    margin:5% auto;
+}
+
+section #informacion #foto, section #informacion #sobremi
 {
     display:inline-block;
-    margin:8% auto;
     vertical-align:middle;
 }
 
-section div, section #servicios2
+section #informacion #sobremi
 {
-    margin:3% auto;
-}
-
-section article
-{
+    clear:right;
+    line-height:1.4em;
+    margin-left:100px;
+    margin-top:30px;
     text-align:justify;
-    max-width:400px;
+    width:365px;    
 }
 
-section figure
+section #informacion #foto
 {
-
+    float:left;
+    width:50%;
 }
 
-section figure img
+section #informacion #foto img
 {
-    width:400px;
+    height:400px;
 }
-
+-----------------------------------
 footer
 {
+    overflow: hidden;
+    width: 100%;
+}
+
+footer #footer
+{
+    background: white;
+    width: 370px;
     text-align: right;
-    max-height:65px;
+    float: right;
+
 }
 
 footer #linea
 {
-    border-bottom: 0.15em dashed grey;
-    width: 65%;
+    border-top:thin dashed grey;
+    margin-top: 25px;
+    float: left;
+    width: 75%;
 }
 
-footer p, footer figure, footer a, footer #linea
+footer #footer figure, footer #footer p
 {
-    display:inline-block;
-    vertical-align:baseline;
+    display: inline;
 }
 
-footer #D
+footer #footer figure a .social
 {
+    width: 25px;
+
+}
+
+footer #footer #D
+{
+    display: inline-block;
+    margin-top: 13px;
     font-size: 0.8em;
 }
 
-footer figure .social
+footer #footer figure #w3c
 {
-    width:25px;
+    width: 15px;
 }
-
-footer span #w3c
-{
-    width:15px;
-}   
